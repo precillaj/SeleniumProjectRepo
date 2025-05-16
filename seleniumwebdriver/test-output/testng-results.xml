@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-11T16:15:22 IST" name="Default suite" finished-at="2025-05-11T16:15:22 IST" duration-ms="170">
+    <groups>
+      <group name="functionalTests">
+        <method signature="DependencyMethodsTestNg.simpleSearch()[pri:3, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" name="simpleSearch" class="MustKnowConcepts.DependencyMethodsTestNg"/>
+        <method signature="DependencyMethodsTestNg.advancedSearch()[pri:4, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" name="advancedSearch" class="MustKnowConcepts.DependencyMethodsTestNg"/>
+      </group> <!-- functionalTests -->
+      <group name="sanity">
+        <method signature="DependencyMethodsTestNg.openapp()[pri:0, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" name="openapp" class="MustKnowConcepts.DependencyMethodsTestNg"/>
+        <method signature="DependencyMethodsTestNg.login()[pri:2, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" name="login" class="MustKnowConcepts.DependencyMethodsTestNg"/>
+        <method signature="DependencyMethodsTestNg.simpleSearch()[pri:3, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" name="simpleSearch" class="MustKnowConcepts.DependencyMethodsTestNg"/>
+        <method signature="DependencyMethodsTestNg.logout()[pri:5, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" name="logout" class="MustKnowConcepts.DependencyMethodsTestNg"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-05-11T16:15:22 IST" name="Default test" finished-at="2025-05-11T16:15:22 IST" duration-ms="170">
+      <class name="MustKnowConcepts.DependencyMethodsTestNg">
+        <test-method signature="openapp()[pri:0, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" started-at="2025-05-11T16:15:22 IST" name="openapp" finished-at="2025-05-11T16:15:22 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="login()[pri:2, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" started-at="2025-05-11T16:15:22 IST" name="login" finished-at="2025-05-11T16:15:22 IST" depends-on-methods="MustKnowConcepts.DependencyMethodsTestNg.openapp" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="simpleSearch()[pri:3, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" started-at="2025-05-11T16:15:22 IST" name="simpleSearch" finished-at="2025-05-11T16:15:22 IST" depends-on-methods="MustKnowConcepts.DependencyMethodsTestNg.login" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleSearch -->
+        <test-method signature="advancedSearch()[pri:4, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" started-at="2025-05-11T16:15:22 IST" name="advancedSearch" finished-at="2025-05-11T16:15:22 IST" depends-on-methods="MustKnowConcepts.DependencyMethodsTestNg.simpleSearch, MustKnowConcepts.DependencyMethodsTestNg.login" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advancedSearch -->
+        <test-method signature="logout()[pri:5, instance:MustKnowConcepts.DependencyMethodsTestNg@368f2016]" started-at="2025-05-11T16:15:22 IST" name="logout" finished-at="2025-05-11T16:15:22 IST" depends-on-methods="MustKnowConcepts.DependencyMethodsTestNg.login" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- MustKnowConcepts.DependencyMethodsTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

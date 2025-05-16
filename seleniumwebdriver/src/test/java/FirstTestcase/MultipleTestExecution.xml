@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = 'TestSuite1'>
+	<test name = 'my tests'>
+		<classes>
+			<class name = 'FirstTestcase.OrangeHRMTest'/>
+			<class name = 'FirstTestcase.TestcaseOne'/>
+		</classes>
+	</test>
+</suite>
